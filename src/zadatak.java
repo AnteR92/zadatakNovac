@@ -17,6 +17,7 @@ public class zadatak {
             if (zbroj > 0) {
                 System.out.println(zbroj + " * " + apoen + " Eur");
                 broj -= zbroj * apoen;
+                broj = Math.round(broj * 100.0) / 100.0;
             }
 
         }
